@@ -1,42 +1,43 @@
-# Nonfunctional requirements
-bootstrap UI
+# Sign in
 
-## Installation instructions 
-a) type the following command in your project root directory
+## About CSC 583 Exam Project
 
---------------------------------------------
-yarn install
+The sign-in application is a simple front-end application that runs on a mobile device, e.g., an iPad or an Android tablet that communicated with a back-end database. This application is used as a kiosk device to collect information on visitors for a corporation.
 
-yarn upgrade
------------------------------------------
-b) You need to install MongoDB database and also start the server of MongoDB
+## Non Functional Requirements
 
---------------------------------------------
-ex) D:\mongodb\bin\mongod.exe" --dbpath d:\mongodb\data
---------------------------------------------
+## Design : This sign in page has two views. One is visitor view and the other is admin view. The use of this app is basically on the tablets so it should fit properly on the screen of tablets.
 
-c) You also need to start the NodeJS server by typing following command.
+## Tool: The tools used for developing this application are Node.js , Mongod , Vue.js. These are the tools used in our class. 
 
---------------------------------------------
-nodemon server
---------------------------------------------
+## Installation Guide:
 
-d) Go to the project folder -> config -> DB.js file and change the URI according to your database connection and credentials.
+* To install dependencies:
 
---------------------------------------------
-npm run dev
---------------------------------------------
+`Sudo npm install yarn -g`
 
-e) webpack development server will start at: http://localhost:8080
-This project is simple one using vue.js and node.js.
-(vue for front end and node  for backend)
+`Yarn install`
+`Yarn upgrade`
 
-### Architecture discussion
-This is a basic signup and administrator Application. Which utilizes frontend of VueJS and backend of Node.js.
+* For backend:
+`Nodemon server`
 
-#### Plan of action
+* Start frontend:
+`Yarn dev`
 
-To signup page:  http://localhost:8080/
-To administrator page:  http://localhost:8080/admin
+## Visitors view
+
+Your name:
+Your email:
+Birthday:
+Gender:
+Company:
+Telephone:
+
+
+## Plan of action:
+- [x] Non functional analysis
+- [x] Architecture design
+- [x] Frontend design(admin view and user view)
 
 
