@@ -6,9 +6,13 @@ The sign-in application is a simple front-end application that runs on a mobile 
 
 ## Non Functional Requirements
 
-## Design : This sign in page has two views. One is visitor view and the other is admin view. The use of this app is basically on the tablets so it should fit properly on the screen of tablets.
+## Design 
 
-## Tool: The tools used for developing this application are Node.js , Mongod , Vue.js. These are the tools used in our class. 
+This sign in page has two views. One is visitor view and the other is admin view. The use of this app is basically on the tablets so it should fit properly on the screen of tablets.
+
+## Tool
+
+The tools used for developing this application are Node.js , Mongod , Vue.js. These are the tools used in our class. 
 
 ## Installation Guide:
 
@@ -17,25 +21,33 @@ The sign-in application is a simple front-end application that runs on a mobile 
 `Sudo npm install yarn -g`
 
 `Yarn install`
+
 `Yarn upgrade`
 
 * For backend:
+
 `Nodemon server`
 
 * Start frontend:
+
 `Yarn dev`
 
 ## Visitors view
 
-Your name:
-Your email:
-Birthday:
-Gender:
-Company:
-Telephone:
+`Your name`
 
+`Your email`
+
+`Birthday`
+
+`Gender`
+
+`Company`
+
+`Telephone`
 
 ## Plan of action:
+
 - [x] Non functional analysis
 - [x] Architecture design
 - [x] Frontend design(admin view and user view)
