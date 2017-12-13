@@ -50,6 +50,8 @@ The tools used for developing this application are Node.js , Mongod , Vue.js. Th
 
 - [x] Non functional analysis
 - [x] Architecture design
-- [x] Frontend design(admin view and user view)
+- [x] Frontend design
+       -[x] Admin view 
+       -[x] Visitor view
 
 
